@@ -1,0 +1,78 @@
+=================start to build:
+=================start to checkout code:
+Cloning into './temp/likai/23'...
+warning: redirecting to https://gitlab.91xft.cn/91xft-fe/91xft-xiangyasan-admin.git/
+/Users/ericli/Documents/xft-node-work/ideploy
+/Users/ericli/Documents/xft-node-work/ideploy/temp/mods/23/
+npm installed
+/Users/ericli/Documents/xft-node-work/ideploy
+/Users/ericli/Documents/xft-node-work/ideploy/temp/likai/23
+创建node_modules软连接  ln -s  ${modulesPath}/node_modules node_modules ---
+/Users/ericli/Documents/xft-node-work/ideploy/temp/likai/23
+开始构建
+
+> xft-cli@1.0.0 build /Users/ericli/Documents/xft-node-work/ideploy/temp/likai/23
+> vue-cli-service build
+
+
+-  Building for production...
+[webpack-alioss-plugin]: 
+OSS 上传开始......
+[webpack-alioss-plugin]: 开始上传 1/22:  /xft-cli/js/chunk-6f8fb1fa.95b681dd.js
+[webpack-alioss-plugin]: 开始上传 4/22:  /xft-cli/css/chunk-72f2d140.0f4490ce.css
+[webpack-alioss-plugin]: 开始上传 2/22:  /xft-cli/js/chunk-147c3aa6.a887bac2.js
+[webpack-alioss-plugin]: 开始上传 6/22:  /xft-cli/favicon.ico
+[webpack-alioss-plugin]: 开始上传 5/22:  /xft-cli/img/icon-qd.adfac44d.png
+[webpack-alioss-plugin]: 开始上传 3/22:  /xft-cli/js/chunk-f190d208.c3194a0a.js
+[webpack-alioss-plugin]: 开始上传 7/22:  /xft-cli/css/app.b3f2bc55.css
+[webpack-alioss-plugin]: 开始上传 9/22:  /xft-cli/css/chunk-6f8fb1fa.b4a7d9f8.css
+[webpack-alioss-plugin]: 开始上传 8/22:  /xft-cli/js/chunk-1364ad5b.0bb9ce80.js
+[webpack-alioss-plugin]: 开始上传 12/22:  /xft-cli/js/chunk-2d22dd88.65445373.js
+[webpack-alioss-plugin]: 开始上传 13/22:  /xft-cli/js/chunk-601de3ea.260044ac.js
+[webpack-alioss-plugin]: 开始上传 11/22:  /xft-cli/js/app.8f0bf3e9.js
+[webpack-alioss-plugin]: 开始上传 14/22:  /xft-cli/assets/background.5825f033.svg
+[webpack-alioss-plugin]: 开始上传 16/22:  /xft-cli/css/chunk-f190d208.dc6238fb.css
+[webpack-alioss-plugin]: 开始上传 15/22:  /xft-cli/js/chunk-72f2d140.c07e0c71.js
+[webpack-alioss-plugin]: 开始上传 17/22:  /xft-cli/img/icon-zd.777ebc6d.png
+[webpack-alioss-plugin]: 开始上传 18/22:  /xft-cli/css/chunk-49259037.fe3ef5c1.css
+[webpack-alioss-plugin]: 开始上传 19/22:  /xft-cli/js/chunk-fdb1affa.651a689e.js
+[webpack-alioss-plugin]: 开始上传 21/22:  /xft-cli/js/chunk-49259037.0f977dae.js
+[webpack-alioss-plugin]: 开始上传 20/22:  /xft-cli/assets/logo.f3103225.svg
+[webpack-alioss-plugin]: 开始上传 22/22:  /xft-cli/css/chunk-vendors.6ec164de.css
+[webpack-alioss-plugin]: 上传成功 1/22: /xft-cli/js/chunk-6f8fb1fa.95b681dd.js
+[webpack-alioss-plugin]: 上传成功 2/22: /xft-cli/js/chunk-147c3aa6.a887bac2.js
+[webpack-alioss-plugin]: 上传成功 4/22: /xft-cli/css/chunk-72f2d140.0f4490ce.css
+[webpack-alioss-plugin]: 上传成功 8/22: /xft-cli/js/chunk-1364ad5b.0bb9ce80.js
+[webpack-alioss-plugin]: 上传成功 13/22: /xft-cli/js/chunk-601de3ea.260044ac.js
+[webpack-alioss-plugin]: 上传成功 6/22: /xft-cli/favicon.ico
+[webpack-alioss-plugin]: 上传成功 7/22: /xft-cli/css/app.b3f2bc55.css
+[webpack-alioss-plugin]: 上传成功 9/22: /xft-cli/css/chunk-6f8fb1fa.b4a7d9f8.css
+[webpack-alioss-plugin]: 上传成功 5/22: /xft-cli/img/icon-qd.adfac44d.png
+[webpack-alioss-plugin]: 上传成功 12/22: /xft-cli/js/chunk-2d22dd88.65445373.js
+[webpack-alioss-plugin]: 上传成功 16/22: /xft-cli/css/chunk-f190d208.dc6238fb.css
+[webpack-alioss-plugin]: 上传成功 21/22: /xft-cli/js/chunk-49259037.0f977dae.js
+[webpack-alioss-plugin]: 上传成功 14/22: /xft-cli/assets/background.5825f033.svg
+[webpack-alioss-plugin]: 上传成功 3/22: /xft-cli/js/chunk-f190d208.c3194a0a.js
+[webpack-alioss-plugin]: 上传成功 18/22: /xft-cli/css/chunk-49259037.fe3ef5c1.css
+[webpack-alioss-plugin]: 开始上传 10/22:  /xft-cli/js/chunk-vendors.6094a7a7.js
+[webpack-alioss-plugin]: 上传成功 20/22: /xft-cli/assets/logo.f3103225.svg
+[webpack-alioss-plugin]: 上传成功 11/22: /xft-cli/js/app.8f0bf3e9.js
+[webpack-alioss-plugin]: 上传成功 19/22: /xft-cli/js/chunk-fdb1affa.651a689e.js
+[webpack-alioss-plugin]: 上传成功 15/22: /xft-cli/js/chunk-72f2d140.c07e0c71.js
+[webpack-alioss-plugin]: 上传成功 17/22: /xft-cli/img/icon-zd.777ebc6d.png
+[webpack-alioss-plugin]: 上传成功 22/22: /xft-cli/css/chunk-vendors.6ec164de.css
+[webpack-alioss-plugin]: 上传成功 10/22: /xft-cli/js/chunk-vendors.6094a7a7.js
+[webpack-alioss-plugin]: OSS 上传完成
+
+ DONE  Compiled successfully in 13831ms下午3:11:25
+
+  File    Size                              Gzipped
+
+
+
+  Images and other types of assets omitted.
+
+ DONE  Build complete. The dist directory is ready to be deployed.
+ INFO  Check out deployment instructions at https://cli.vuejs.org/guide/deployment.html
+      
+test build end!!!

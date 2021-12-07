@@ -1,0 +1,13 @@
+
+=================start to deploy:
+spawn rsync -av --delete ericli@10.2.0.99:/Users/ericli/Documents/xft-node-work/ideploy/temp/likai/23/dist /Users/ericli/Documents/node-server/91xft-xiangyasan-admin/dist
+Password:
+receiving file list ... done
+dist/
+dist/index.html
+
+sent 78 bytes  received 170 bytes  165.33 bytes/sec
+total size is 3192  speedup is 12.87
+
+================= to deploy end:
+================= end!!!:

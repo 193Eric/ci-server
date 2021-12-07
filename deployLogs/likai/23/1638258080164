@@ -1,0 +1,19 @@
+
+=================start to deploy:
+1ercili
+2a4321469
+3./temp/likai/23/dist
+410.2.0.99
+522
+6/Users/ericli/Documents/node-server/91xft-xiangyasan-admin/dist
+spawn rsync -av --delete ericli@10.2.0.99:./temp/likai/23/dist /Users/ericli/Documents/node-server/91xft-xiangyasan-admin/dist
+Password:
+receiving file list ... rsync: link_stat "/Users/ericli/./temp/likai/23/dist" failed: No such file or directory (2)
+done
+
+sent 8 bytes  received 21 bytes  58.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files could not be transferred (code 23) at /BuildRoot/Library/Caches/com.apple.xbs/Sources/rsync/rsync-52.200.1/rsync/main.c(1404) [receiver=2.6.9]
+
+================= to deploy end:
+================= end!!!:

@@ -1,0 +1,5 @@
+
+=================start to deploy:
+spawn rsync -raqpPL --delete ./temp/likai/23/dist ercili@10.2.0.99:/Users/ericli/Documents/node-server/91xft-xiangyasan-admin/dist
+Password:
+Password:finished
