@@ -499,10 +499,10 @@ export default class extends Base {
                 }
                 let pubTime = new Moment().format('YYYY-MM-DD HH:mm:ss');
                 let content = `<h2 style="color:red">发布人：${sessionUser.name}</h2>\
-                <h2 style="color:red">发布机器：${deployInfo.machine_name}</h2>\
+                <h2 style="color:red">发布工程：${deployInfo.pro_name}</h2>\
                 <h2 style="color:red">发布时间：${pubTime}</h2>\;
                 <h2 style="color:red">发布描述：${deployDesc}</h2>`;
-                emailIns.sendEmail(deployInfo.pro_name + '项目部署信息：', '微店h5项目部署通知邮件', content, emailList).then((err, body) => {
+                emailIns.sendEmail(deployInfo.pro_name + '项目部署信息：', '星富通前端项目部署通知邮件', content, emailList).then((err, body) => {
                     if (!err && body == 'successful') {
                         fs.writeFileSync(deployLogFile, '\n=================发送通知邮件成功:\n', options);
                     } else {
