@@ -121,24 +121,24 @@ CREATE TABLE `project` (
 -- Table structure for table `pub_machines`
 --
 
-DROP TABLE IF EXISTS `pub_machines`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `pub_machines` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
-  `mid` int(11) NOT NULL,
-  `pid` int(11) NOT NULL,
-  `ip` varchar(40) DEFAULT NULL COMMENT 'ip suit for ipv6',
-  `dir` varchar(512) DEFAULT NULL COMMENT 'dist dir',
-  `sdir` varchar(512) DEFAULT NULL COMMENT 'source dir',
-  `ssh_user` varchar(30) DEFAULT NULL COMMENT 'ssh_user',
-  `ssh_pass` varchar(30) DEFAULT NULL COMMENT 'ssh_pass',
-  `type` tinyint(3) unsigned NOT NULL DEFAULT '2' COMMENT 'machine type 0:pro 1:pre 2:test',
-  `task_name` varchar(30) DEFAULT NULL COMMENT 'build task name. eg: test9',
-  PRIMARY KEY (`id`),
-  KEY `mid` (`mid`),
-  CONSTRAINT `pub_machines_ibfk_1` FOREIGN KEY (`mid`) REFERENCES `machine` (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+-- DROP TABLE IF EXISTS `pub_machines`;
+-- /*!40101 SET @saved_cs_client     = @@character_set_client */;
+-- /*!40101 SET character_set_client = utf8 */;
+-- CREATE TABLE `pub_machines` (
+--   `id` int(11) NOT NULL AUTO_INCREMENT,
+--   `mid` int(11) NOT NULL,
+--   `pid` int(11) NOT NULL,
+--   `ip` varchar(40) DEFAULT NULL COMMENT 'ip suit for ipv6',
+--   `dir` varchar(512) DEFAULT NULL COMMENT 'dist dir',
+--   `sdir` varchar(512) DEFAULT NULL COMMENT 'source dir',
+--   `ssh_user` varchar(30) DEFAULT NULL COMMENT 'ssh_user',
+--   `ssh_pass` varchar(30) DEFAULT NULL COMMENT 'ssh_pass',
+--   `type` tinyint(3) unsigned NOT NULL DEFAULT '2' COMMENT 'machine type 0:pro 1:pre 2:test',
+--   `task_name` varchar(30) DEFAULT NULL COMMENT 'build task name. eg: test9',
+--   PRIMARY KEY (`id`),
+--   KEY `mid` (`mid`),
+--   CONSTRAINT `pub_machines_ibfk_1` FOREIGN KEY (`mid`) REFERENCES `machine` (`id`)
+-- ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
