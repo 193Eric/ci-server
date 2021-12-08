@@ -63,7 +63,7 @@ class loginForm extends React.Component {
           if (res.errno == 0) {
             window.location.href = './';
           } else {
-            me.showConfirm('登录失败', '用户或者密码名字错误')
+            me.showConfirm('登录失败', res.errmsg)
           }
         }
       })

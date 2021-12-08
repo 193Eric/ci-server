@@ -46,6 +46,9 @@ export default class extends Base {
             }else {
                 let userInfo = await userModel.getUserByName(name);
                 if(userInfo && userInfo.pass === pass) {
+                    if(userInfo.use == 0){
+                        return this.fail('账号未激活，请联系管理员！')
+                    }
                     this.http.session('user', userInfo);
                     return this.success(userInfo);
                 } else {

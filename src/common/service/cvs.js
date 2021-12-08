@@ -89,7 +89,6 @@ export default class extends think.service.base {
         if (fs.existsSync(lastTagDir)) {
             await childProcessPro.exec('rm -rf ' + lastTagDir);
         }
-        console.log(123,pro.lastTag)
         //没有上一个tag或者非快捷发布
         if (pro.lastTag&&!pro.isQuickDeploy) {
 

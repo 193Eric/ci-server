@@ -78,8 +78,9 @@ export default class extends Base {
     async getProjectListAction() {
         let pageId = this.param('pageId');
         let pageSize = this.param('pageSize');
+        let name = this.param('name');
         let proModel = new ProModel();
-        let dataList = await proModel.getProjectList(pageId, pageSize);
+        let dataList = await proModel.getProjectList(pageId, pageSize,name);
         return this.success(dataList);
     }
     async getProjectByIdAction() {

@@ -12,9 +12,11 @@ export default class extends think.model.base {
         }).find();
         return data;
     }
-    async getProjectList(pageId, pageSize) {
+    async getProjectList(pageId, pageSize,name) {
         let proModel = think.model("project", think.config("db"), "home");
-        let data = await proModel.page(pageId, pageSize).countSelect();
+        let data = await proModel.where({
+            "name": {'like':'%'+name+'%'}
+        }).page(pageId, pageSize).countSelect()
         return data;
     }
     async newProject(pro) {

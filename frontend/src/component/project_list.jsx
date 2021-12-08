@@ -18,15 +18,17 @@ import '../style/project.less'
 import '../style/project_list.less';
 const FormItem = Form.Item;
 const TabPane = Tabs.TabPane;
+const InputGroup = Input.Group;
 const Option = Select.Option;
 class ProjectList extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
       isShowProForm: false,
+      projectname:'',
       items: {
         currentPage: 1,
-        numsPerPage: 32
+        numsPerPage: 10
       },
       proItemsData: []
     };
@@ -46,12 +48,17 @@ class ProjectList extends React.Component {
       url: '/home/project/get_project_list',
       data: {
         pageId: pageId,
-        pageSize: pageSize
+        pageSize: pageSize,
+        name:this.state.projectname
       },
       success: function(res) {
         self.setState({items: res.data, proItemsData: res.data.data})
       }
     })
+  }
+
+  searchProject(){
+    this.getItemData(this.state.items.currentPage, this.state.items.numsPerPage);
   }
 
   componentDidMount() {
@@ -63,11 +70,16 @@ class ProjectList extends React.Component {
   }
 
   onChange(page) {
-    this.getItemData(page, 32);
+    this.getItemData(page, 10);
   }
   showTotal(total) {
     return `共 ${total} 条`;
   }
+
+  handleChange(e){
+    this.setState({projectname: e.target.value})
+  }
+  
   render() {
     let self = this
     const columns = [
@@ -107,7 +119,11 @@ class ProjectList extends React.Component {
     return (
       <div >
         <div id="machineAction">
-          <Row type="flex" justify="end" className="section-gap">
+          <Row type="flex" justify="space-between" className="section-gap">
+            <div className="tool">
+            <Input style={{ width: '200px' }} placeholder="输入工程名称" size="large" onChange={this.handleChange.bind(this)}/>
+            <Button  style={{ width: '80px',marginLeft:'20px' }}type="primary" size="large" onClick={this.searchProject.bind(this)}>搜索</Button>
+            </div>
             <Button type="primary" size="large" onClick={this.addProject.bind(this)}>新建工程</Button>
           </Row>
 

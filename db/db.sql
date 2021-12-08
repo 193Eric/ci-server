@@ -153,6 +153,7 @@ CREATE TABLE `user` (
   `name` varchar(50) DEFAULT NULL COMMENT 'creater max length 30 character & unique',
   `pass` varchar(30) DEFAULT NULL COMMENT 'pass max length 30 character',
   `avatar` varchar(512) DEFAULT NULL COMMENT 'avatar',
+  `use` int(11) NOT NULL  DEFAULT '0',
   PRIMARY KEY (`id`),
   UNIQUE KEY `name` (`name`)
 ) ENGINE=InnoDB AUTO_INCREMENT=20 DEFAULT CHARSET=utf8;
