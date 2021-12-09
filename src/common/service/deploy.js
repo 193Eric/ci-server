@@ -59,36 +59,36 @@ export default class extends think.service.base {
         //路径自动添加反斜杠
         let sourceDirFinal = buildDir + (sourceDir[0] == '/' ? '' : '/') + sourceDir;
         console.log('./src/common/service/impl/deploy.sh', shUser, shPass, sourceDirFinal, deployInfo.ip, shPort, targetDir);
-        let cmdParam = [shUser, shPass, sourceDirFinal, deployInfo.ip, shPort, targetDir].join(' ');
-        let cmd = './src/common/service/impl/deploy.sh ' + cmdParam;
+        // let cmdParam = [shUser, shPass, sourceDirFinal, deployInfo.ip, shPort, targetDir].join(' ');
+        // let cmd = './src/common/service/impl/deploy.sh ' + cmdParam;
         //改成同步执行
         
-        let changeLog = await childProcessPro.exec(cmd, {
-            maxBuffer: 100 * 1024 * 1024
+        // let changeLog = await childProcessPro.exec(cmd, {
+        //     maxBuffer: 100 * 1024 * 1024
+        // });
+        // let options = {
+        //     encoding: 'utf8',
+        //     mode: 438,
+        //     flag: 'a'
+        // };
+        // fs.writeFileSync(deployLogFile, changeLog.stdout, options);
+
+        // return sourceDirFinal;
+        let pro = childProcessPro.spawn('./src/common/service/impl/deploy.sh', [shUser, shPass, sourceDirFinal, deployInfo.ip, shPort, targetDir]);
+
+        var proChild = pro.child;
+        proChild.stdout.on('data', (data) => {
+            console.log(`stdout: ${data}`);
+            let options = { encoding: 'utf8', mode: 438, flag: 'a' };
+            fs.writeFileSync(deployLogFile, data, options);
         });
-        let options = {
-            encoding: 'utf8',
-            mode: 438,
-            flag: 'a'
-        };
-        fs.writeFileSync(deployLogFile, changeLog.stdout, options);
-
-        return sourceDirFinal;
-        //let pro = childProcessPro.spawn('./src/common/service/impl/deploy.sh', [shUser, shPass, sourceDirFinal, deployInfo.ip, shPort, targetDir]);
-
-        // var proChild = pro.child;
-        // proChild.stdout.on('data', (data) => {
-        //     console.log(`stdout: ${data}`);
-        //     let options = { encoding: 'utf8', mode: 438, flag: 'a' };
-        //     fs.writeFileSync(deployLogFile, data, options);
-        // });
-        // proChild.stderr.on('data', (data) => {
-        //     console.log(`stderr: ${data}`);
-        //     let options = { encoding: 'utf8', mode: 438, flag: 'a' };
-        //     fs.writeFileSync(deployLogFile, data, options);
-        // });
-        //
-        // proChild.on('close', (code) => {});
-        //return pro;
+        proChild.stderr.on('data', (data) => {
+            console.log(`stderr: ${data}`);
+            let options = { encoding: 'utf8', mode: 438, flag: 'a' };
+            fs.writeFileSync(deployLogFile, data, options);
+        });
+        
+        proChild.on('close', (code) => {});
+        return pro;
     }
 }
