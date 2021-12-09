@@ -62,6 +62,7 @@ export default class extends think.service.base {
         let cmdParam = [shUser, shPass, sourceDirFinal, deployInfo.ip, shPort, targetDir].join(' ');
         let cmd = './src/common/service/impl/deploy.sh ' + cmdParam;
         //改成同步执行
+        console.log(cmd)
         let changeLog = await childProcessPro.exec(cmd, {
             maxBuffer: 100 * 1024 * 1024
         });
