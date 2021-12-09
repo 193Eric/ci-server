@@ -89,6 +89,6 @@ export default class extends think.service.base {
         });
         
         proChild.on('close', (code) => {});
-        return pro;
+        return sourceDirFinal;
     }
 }
