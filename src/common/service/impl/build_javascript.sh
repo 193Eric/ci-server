@@ -20,7 +20,7 @@ cd $modulesPath
 #更新依赖库
 
 if [ "$4" -eq "2" ]; then
-  npm install
+  cnpm install 
 fi
 echo 'npm installed'
 

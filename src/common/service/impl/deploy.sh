@@ -6,10 +6,10 @@ souDir=$3 #服务端的路径
 desDir=$6 #客户端的路径
 auto_rsync () {
     expect -c "set timeout -1;
-                spawn rsync -av --delete $4 $2@$3:$5;
+                spawn rsync -av --delete $4 $3:$5;
                 expect {
-                    *assword:* {send -- $1\r;
-                                 expect {
+                    *assword:* {send -- \r;
+                                 expect {'
                                     *denied* {exit 2;}
                                     eof
                                  }
