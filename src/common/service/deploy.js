@@ -59,11 +59,11 @@ export default class extends think.service.base {
         //路径自动添加反斜杠
         let sourceDirFinal = buildDir + (sourceDir[0] == '/' ? '' : '/') + sourceDir;
         console.log('./src/common/service/impl/deploy.sh', shUser, shPass, sourceDirFinal, deployInfo.ip, shPort, targetDir);
-        let cmdParam = [shUser, shPass, sourceDirFinal, deployInfo.ip, shPort, targetDir]
-        let cmd = './src/common/service/impl/deploy.sh ';
+        let cmdParam = [shUser, shPass, sourceDirFinal, deployInfo.ip, shPort, targetDir].join(' ');
+        let cmd = './src/common/service/impl/deploy.sh ' + cmdParam;
         //改成同步执行
         
-        let changeLog = await childProcessPro.execFile(cmd,cmdParam, {
+        let changeLog = await childProcessPro.exec(cmd, {
             maxBuffer: 100 * 1024 * 1024
         });
         let options = {
