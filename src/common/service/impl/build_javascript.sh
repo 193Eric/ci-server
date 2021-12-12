@@ -5,22 +5,22 @@ projectPath=$1
 task=$2
 pwd
 
-# if [ "$4" -eq "2" ]; then
-#   rm -rf $modulesPath
-# fi
-# echo $modulesPath
-# if [ ! -d $modulesPath ]; then
-#   mkdir -p $modulesPath
-# fi
+if [ "$4" -eq "2" ]; then
+  rm -rf $modulesPath
+fi
+echo $modulesPath
+if [ ! -d $modulesPath ]; then
+  mkdir -p $modulesPath
+fi
 
-# cp -f $projectPath/package.json $modulesPath
+cp -f $projectPath/package.json $modulesPath
 
 cd $modulesPath
 
 #更新依赖库
 
 if [ "$4" -eq "2" ]; then
-  npm install --save
+  cnpm install --save
 fi
 echo 'npm installed'
 
