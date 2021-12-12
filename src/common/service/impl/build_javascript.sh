@@ -21,8 +21,8 @@ cd $modulesPath
 
 if [ "$4" -eq "2" ]; then
   cnpm install -g
+  echo 'cnpm installed'
 fi
-echo 'cnpm installed'
 
 cd ../../../
 pwd
