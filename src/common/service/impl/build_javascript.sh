@@ -20,8 +20,7 @@ cd $modulesPath
 #更新依赖库
 
 if [ "$4" -eq "2" ]; then
-  cnpm install --save
-  cnpm update --save
+  cnpm install 
 fi
 echo 'npm installed'
 
