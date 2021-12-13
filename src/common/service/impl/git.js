@@ -108,7 +108,7 @@ GitClient.prototype = {
                 cb(err);
             } else {
                 if (isBranch) {
-                    exec('cd '+cmdDir+ '&& git fetch && git branch '+branch+'&& git checkout ' + branch +' origin/'+branch, {
+                    exec('cd '+cmdDir+ '&& git remote update origin --prune && git reset --hard origin/'+branch, {
                         maxBuffer: 100 * 1024 * 1024
                     }, function(err2, data2, stderr2) {
                         if (err2) {
