@@ -18,7 +18,7 @@ class Auth extends Component {
 
   render() {
     return (
-      <div>
+      <div className="auth-page">
         <LoginForm regFormHandler={this.handleRegForm.bind(this)}/>
         <RegisterForm isShowRegForm={this.state.isShowRegForm} regFormHandler={this.handleRegForm.bind(this)}/>
       </div>
