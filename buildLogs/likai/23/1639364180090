@@ -1,0 +1,60 @@
+=================start to build:
+=================start to checkout code:
+Cloning into '/Users/ericli/Documents/xft-node-work/ideploy/temp/likai/23'...
+warning: redirecting to https://gitlab.91xft.cn/91xft-fe/91xft-xiangyasan-admin.git/
+/Users/ericli
+/Users/ericli/Documents/xft-node-work/ideploy/temp/likai/23
+npm installed
+开始构建
+
+> xft-cli@1.0.0 build /Users/ericli/Documents/xft-node-work/ideploy/temp/likai/23
+> vue-cli-service build
+
+sh: vue-cli-service: command not found
+npm ERR! code ELIFECYCLE
+npm ERR! syscall spawn
+npm ERR! file sh
+npm ERR! errno ENOENT
+npm ERR! xft-cli@1.0.0 build: `vue-cli-service build`
+npm ERR! spawn ENOENT
+npm ERR! 
+npm ERR! Failed at the xft-cli@1.0.0 build script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+npm WARN Local package.json exists, but node_modules missing, did you mean to install?
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/ericli/.npm/_logs/2021-12-13T02_56_23_572Z-debug.log
+test build end!!!
+/Users/ericli
+/Users/ericli/Documents/xft-node-work/ideploy/temp/likai/23
+- 
+[p-limit@1.3.0] download CwdError: ENOENT: Cannot cd into '/Users/ericli/Documents/xft-node-work/ideploy/temp/likai/23/node_modules/_p-limit@1.3.0@p-limit' (p-limit@1.3.0) (/Users/ericli/.npm/p/l/i/m/p-limit/1.3.0-b86bd5f0c25690911c7590fcbfc2010d54b3ccb8.tgz), fail count: 1
+[rgba-regex@1.0.0] download CwdError: ENOENT: Cannot cd into '/Users/ericli/Documents/xft-node-work/ideploy/temp/likai/23/node_modules/_rgba-regex@1.0.0@rgba-regex' (rgba-regex@1.0.0) (/Users/ericli/.npm/r/g/b/a/rgba-regex/1.0.0-43374e2e2ca0968b0ef1523460b7d730ff22eeb3.tgz), fail count: 1
+unsetInstallDone: /Users/ericli/Documents/xft-node-work/ideploy/temp/likai/23/node_modules/_@babel_preset-env@7.16.4@@babel/preset-env error: Error: ENOENT: no such file or directory, open '/Users/ericli/Documents/xft-node-work/ideploy/temp/likai/23/node_modules/_@babel_preset-env@7.16.4@@babel/preset-env/package.json', ignore it
+unsetInstallDone: /Users/ericli/Documents/xft-node-work/ideploy/temp/likai/23/node_modules/_worker-farm@1.7.0@worker-farm error: Error: ENOENT: no such file or directory, chmod '/Users/ericli/Documents/xft-node-work/ideploy/temp/likai/23/node_modules/_worker-farm@1.7.0@worker-farm/package.json', ignore it
+unsetInstallDone: /Users/ericli/Documents/xft-node-work/ideploy/temp/likai/23/node_modules/_consolidate@0.15.1@consolidate error: Error: ENOENT: no such file or directory, chmod '/Users/ericli/Documents/xft-node-work/ideploy/temp/likai/23/node_modules/_consolidate@0.15.1@consolidate/package.json', ignore it
+unsetInstallDone: /Users/ericli/Documents/xft-node-work/ideploy/temp/likai/23/node_modules/_@vue_cli-service@4.5.15@@vue/cli-service error: Error: ENOENT: no such file or directory, chmod '/Users/ericli/Documents/xft-node-work/ideploy/temp/likai/23/node_modules/_@vue_cli-service@4.5.15@@vue/cli-service/package.json', ignore it
+✖ Install fail! Error: ENOENT: no such file or directory, chmod '/Users/ericli/Documents/xft-node-work/ideploy/temp/likai/23/node_modules/_yargs@13.3.2@yargs/package.json'
+Error: ENOENT: no such file or directory, chmod '/Users/ericli/Documents/xft-node-work/ideploy/temp/likai/23/node_modules/_yargs@13.3.2@yargs/package.json'
+npminstall version: 5.0.2
+npminstall args: /usr/local/bin/node /usr/local/lib/node_modules/cnpm/node_modules/npminstall/bin/install.js --fix-bug-versions --china --userconfig=/Users/ericli/.cnpmrc --disturl=https://npm.taobao.org/mirrors/node --registry=https://registry.nlark.com --save
+npm installed
+开始构建
+
+> xft-cli@1.0.0 build /Users/ericli/Documents/xft-node-work/ideploy/temp/likai/23
+> vue-cli-service build
+
+sh: vue-cli-service: command not found
+npm ERR! code ELIFECYCLE
+npm ERR! syscall spawn
+npm ERR! file sh
+npm ERR! errno ENOENT
+npm ERR! xft-cli@1.0.0 build: `vue-cli-service build`
+npm ERR! spawn ENOENT
+npm ERR! 
+npm ERR! Failed at the xft-cli@1.0.0 build script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/ericli/.npm/_logs/2021-12-13T02_56_42_331Z-debug.log
+test build end!!!

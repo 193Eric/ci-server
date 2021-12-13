@@ -1,0 +1,8 @@
+
+=================start to deploy:
+
+================= to deploy end:
+================= end!!!:spawn rsync -av --delete /Users/ericli/Documents/xft-node-work/ideploy/temp/likai/23/dist 119.23.147.29:/likai/dist
+ericli@119.23.147.29's password: 
+Permission denied, please try again.
+ericli@119.23.147.29's password: 

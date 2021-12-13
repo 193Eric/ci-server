@@ -1,0 +1,710 @@
+=================start to build:
+=================start to checkout code:
+Cloning into '/Users/ericli/Documents/xft-node-work/ideploy/temp/likai/24'...
+warning: redirecting to https://gitlab.91xft.cn/91xft-fe/91xft-zoomlion-project.git/
+/Users/ericli/Documents/xft-node-work/ideploy
+/Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/
+- 
+
+WARN node unsupported "node@v10.21.0" is incompatible with mockjs2@1.0.8 › commander@*, expected node@>= 12
+✔ Installed 54 packages
+✔ Linked 1546 latest versions
+[1/9] scripts.install @vue/cli-plugin-eslint@4.5.15 › yorkie@^2.0.0 run "node bin/install.js", root: "/Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_yorkie@2.0.0@yorkie"
+setting up Git hooks
+can't find .git directory, skipping Git hooks installation
+[1/9] scripts.install @vue/cli-plugin-eslint@4.5.15 › yorkie@^2.0.0 finished in 109ms
+[2/9] scripts.postinstall @vue/cli-service@4.5.15 › webpack-bundle-analyzer@3.9.0 › ejs@^2.6.1 run "node ./postinstall.js", root: "/Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ejs@2.7.4@ejs"
+Thank you for installing [35mEJS[0m: built with the [32mJake[0m JavaScript build tool ([32mhttps://jakejs.com/[0m)
+
+[2/9] scripts.postinstall @vue/cli-service@4.5.15 › webpack-bundle-analyzer@3.9.0 › ejs@^2.6.1 finished in 80ms
+[3/9] scripts.postinstall uglifyjs-webpack-plugin@^0.4.6 run "node lib/post_install.js", root: "/Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_uglifyjs-webpack-plugin@0.4.6@uglifyjs-webpack-plugin"
+[3/9] scripts.postinstall uglifyjs-webpack-plugin@^0.4.6 finished in 82ms
+[4/9] scripts.install vue-photo-preview@1.1.3 › webpack-dev-server@2.11.5 › chokidar@2.1.8 › fsevents@^1.2.7 run "node install.js", root: "/Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_fsevents@1.2.13@fsevents"
+  SOLINK_MODULE(target) Release/.node
+  CXX(target) Release/obj.target/fse/fsevents.o
+  SOLINK_MODULE(target) Release/fse.node
+[4/9] scripts.install vue-photo-preview@1.1.3 › webpack-dev-server@2.11.5 › chokidar@2.1.8 › fsevents@^1.2.7 finished in 4s
+[5/9] scripts.install @vue/cli-plugin-unit-jest@4.5.15 › vue-jest@3.0.7 › deasync@^0.1.15 run "node ./build.js", root: "/Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_deasync@0.1.24@deasync"
+`darwin-x64-node-10` exists; testing
+Binary is fine; exiting
+[5/9] scripts.install @vue/cli-plugin-unit-jest@4.5.15 › vue-jest@3.0.7 › deasync@^0.1.15 finished in 269ms
+[6/9] scripts.postinstall core-js@^3.1.2 run "node -e \"try{require('./postinstall')}catch(e){}\"", root: "/Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_core-js@3.19.3@core-js"
+[96mThank you for using core-js ([94m https://github.com/zloirock/core-js [96m) for polyfilling JavaScript standard library![0m
+
+[96mThe project needs your help! Please consider supporting of core-js:[0m
+[96m>[94m https://opencollective.com/core-js [0m
+[96m>[94m https://patreon.com/zloirock [0m
+[96m>[94m https://paypal.me/zloirock [0m
+[96m>[94m bitcoin: bc1qlea7544qtsmj2rayg0lthvza9fau63ux0fstcz [0m
+
+[96mAlso, the author of core-js ([94m https://github.com/zloirock [96m) is looking for a good job -)[0m
+
+[6/9] scripts.postinstall core-js@^3.1.2 finished in 98ms
+[7/9] scripts.postinstall vue-photo-preview@1.1.3 › babel-core@6.26.3 › babel-register@6.26.0 › core-js@^2.5.0 run "node -e \"try{require('./postinstall')}catch(e){}\"", root: "/Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_core-js@2.6.12@core-js"
+[96mThank you for using core-js ([94m https://github.com/zloirock/core-js [96m) for polyfilling JavaScript standard library![0m
+
+[96mThe project needs your help! Please consider supporting of core-js on Open Collective or Patreon: [0m
+[96m>[94m https://opencollective.com/core-js [0m
+[96m>[94m https://www.patreon.com/zloirock [0m
+
+[96mAlso, the author of core-js ([94m https://github.com/zloirock [96m) is looking for a good job -)[0m
+
+[7/9] scripts.postinstall vue-photo-preview@1.1.3 › babel-core@6.26.3 › babel-register@6.26.0 › core-js@^2.5.0 finished in 101ms
+[8/9] scripts.postinstall webpack-obfuscator@1.12.1 › javascript-obfuscator@^1.12.1 run "opencollective || exit 0", root: "/Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_javascript-obfuscator@1.12.1@javascript-obfuscator"
+                   Thanks for installing javascript-obfuscator 
+                 Please consider donating to our open collective
+                        to help us maintain this package.
+                                         
+                            Number of contributors: 0
+                              Number of backers: 72
+                              Annual budget: US$ 683
+                             Current balance: US$ 11
+                                         
+          Donate: https://opencollective.com/javascript-obfuscator/donate
+                                         
+[8/9] scripts.postinstall webpack-obfuscator@1.12.1 › javascript-obfuscator@^1.12.1 finished in 1s
+[9/9] scripts.postinstall ant-design-vue@^1.7.5 run "node scripts/postinstall || echo \"ignore\"", root: "/Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue"
+[96mThank you for using ant-design-vue ([94m https://github.com/vueComponent/ant-design-vue [96m)![0m
+
+[96mThe project needs your help! Please consider supporting of ant-design-vue on Open Collective or Patreon: 🙏[0m
+[96m>[94m https://opencollective.com/ant-design-vue [0m
+[96m>[94m https://www.patreon.com/tangjinzhou [0m
+
+[96m更多赞助方式(支付宝、微信、Paypal)请查看如下链接: 🙏[0m
+[96m>[94m https://www.antdv.com/docs/vue/sponsor-cn [0m
+
+[96mAnt Design Vue 官方网站: [0m
+[96m>[94m https://www.antdv.com/ [0m
+
+[9/9] scripts.postinstall ant-design-vue@^1.7.5 finished in 136ms
+✔ Run 9 scripts
+peerDependencies link babel-core@6.26.3 in /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_babel-loader@7.1.5@babel-loader unmet with /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/babel-core(7.0.0-bridge.0)
+peerDependencies link css-loader@0.28.11 in /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_vue-loader@13.7.3@vue-loader unmet with /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/css-loader(3.6.0)
+peerDependencies link webpack@3.12.0 in /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_file-loader@1.1.11@file-loader unmet with /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/webpack(4.46.0)
+peerDependencies link acorn@6.4.2 in /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_acorn-jsx@5.3.2@acorn-jsx unmet with /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/acorn(8.6.0)
+peerDependencies link webpack@3.12.0 in /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_webpack-dev-server@2.11.5@webpack-dev-server unmet with /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/webpack(4.46.0)
+peerDependencies link webpack@3.12.0 in /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_extract-text-webpack-plugin@3.0.2@extract-text-webpack-plugin unmet with /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/webpack(4.46.0)
+peerDependencies link webpack@3.12.0 in /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_babel-loader@7.1.5@babel-loader unmet with /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/webpack(4.46.0)
+peerDependencies link webpack@3.12.0 in /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_webpack-dev-middleware@1.12.2@webpack-dev-middleware unmet with /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/webpack(4.46.0)
+peerDependencies link webpack@5.65.0 in /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_terser-webpack-plugin@5.2.5@terser-webpack-plugin unmet with /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/webpack(4.46.0)
+peerDependencies WARNING eslint-config-standard@^4.0.0 requires a peer of eslint-plugin-standard@^1.1.0 but eslint-plugin-standard@4.1.0 was installed
+peerDependencies WARNING uglifyjs-webpack-plugin@^0.4.6 requires a peer of webpack@^1.9 || ^2 || ^2.1.0-beta || ^2.2.0-rc || ^3.0.0 but webpack@4.46.0 was installed
+peerDependencies WARNING @vue/cli-service@^4.0.4 requires a peer of @vue/compiler-sfc@^3.0.0-beta.14 but none was installed
+peerDependencies WARNING @vue/cli-plugin-unit-jest@4.5.15 › jest-environment-jsdom-fifteen@1.0.2 › jsdom@^15.2.1 requires a peer of canvas@^2.5.0 but none was installed
+peerDependencies WARNING @vue/cli-plugin-unit-jest@4.5.15 › jest-environment-jsdom-fifteen@1.0.2 › jsdom@15.2.1 › ws@^7.0.0 requires a peer of bufferutil@^4.0.1 but none was installed
+peerDependencies WARNING @vue/cli-plugin-unit-jest@4.5.15 › jest-environment-jsdom-fifteen@1.0.2 › jsdom@15.2.1 › ws@^7.0.0 requires a peer of utf-8-validate@^5.0.2 but none was installed
+deprecate babel-eslint@^10.0.1 babel-eslint is now @babel/eslint-parser. This package will no longer receive updates.
+deprecate axios@^0.19.0 Critical security vulnerability fixed in v0.21.1. For more information, see https://github.com/axios/axios/pull/3410
+anti semver vue-svg-icon-loader@2.1.1 › @types/loader-utils@1.1.3 › @types/node@* delcares @types/node@*(resolved as 16.11.12) but using ancestor(vue-svg-icon-loader)'s dependency @types/node@8.9(resolved as 8.9.5)
+deprecate @vue/cli-plugin-eslint@4.5.15 › eslint-loader@^2.2.1 This loader has been deprecated. Please use eslint-webpack-plugin
+anti semver vue-svg-icon-loader@2.1.1 › @types/loader-utils@1.1.3 › @types/webpack@5.28.0 › @types/node@* delcares @types/node@*(resolved as 16.11.12) but using ancestor(vue-svg-icon-loader)'s dependency @types/node@8.9(resolved as 8.9.5)
+deprecate @vue/cli-plugin-babel@4.5.15 › @vue/cli-shared-utils@4.5.15 › request@^2.88.2 request has been deprecated, see https://github.com/request/request/issues/3142
+deprecate vue-photo-preview@1.1.3 › autoprefixer-loader@^3.2.0 Please use postcss-loader instead of autoprefixer-loader
+deprecate vue-photo-preview@1.1.3 › extract-text-webpack-plugin@^3.0.1 Deprecated. Please use https://github.com/webpack-contrib/mini-css-extract-plugin
+deprecate @vue/cli-plugin-babel@4.5.15 › @vue/cli-shared-utils@4.5.15 › @hapi/joi@^15.0.1 Switch to 'npm install joi'
+deprecate @vue/cli-service@4.5.15 › html-webpack-plugin@^3.2.0 3.x is no longer supported
+deprecate @vue/cli-plugin-babel@4.5.15 › @vue/cli-shared-utils@4.5.15 › request@2.88.2 › har-validator@~5.1.3 this library is no longer supported
+deprecate vue-photo-preview@1.1.3 › resolve-url-loader@2.3.2 › urix@^0.1.0 Please see https://github.com/lydell/urix#deprecated
+deprecate @vue/cli-plugin-babel@4.5.15 › @vue/cli-shared-utils@4.5.15 › request@2.88.2 › uuid@^3.3.2 Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+deprecate @vue/cli-plugin-babel@4.5.15 › @vue/cli-shared-utils@4.5.15 › @hapi/joi@15.1.1 › @hapi/bourne@1.x.x This version has been deprecated and is no longer supported or maintained
+deprecate @vue/cli-plugin-babel@4.5.15 › @vue/cli-shared-utils@4.5.15 › @hapi/joi@15.1.1 › @hapi/topo@3.x.x This version has been deprecated and is no longer supported or maintained
+deprecate @vue/cli-plugin-babel@4.5.15 › @vue/cli-shared-utils@4.5.15 › @hapi/joi@15.1.1 › @hapi/address@2.x.x Moved to 'npm install @sideway/address'
+deprecate @vue/cli-plugin-babel@4.5.15 › @vue/cli-shared-utils@4.5.15 › @hapi/joi@15.1.1 › @hapi/hoek@8.x.x This version has been deprecated and is no longer supported or maintained
+deprecate vue-photo-preview@1.1.3 › webpack-dev-server@2.11.5 › chokidar@^2.1.2 Chokidar 2 will break on node v14+. Upgrade to chokidar 3 with 15x less dependencies.
+deprecate vue-photo-preview@1.1.3 › autoprefixer-loader@3.2.0 › autoprefixer@6.7.7 › browserslist@^1.7.6 Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+deprecate vue-photo-preview@1.1.3 › webpack-dev-server@2.11.5 › chokidar@2.1.8 › fsevents@^1.2.7 fsevents 1 will break on node v14+ and could be using insecure binaries. Upgrade to fsevents 2.
+deprecate @vue/cli-plugin-unit-jest@4.5.15 › babel-jest@24.9.0 › @jest/transform@24.9.0 › jest-haste-map@24.9.0 › sane@^4.0.3 some dependency vulnerabilities fixed, support for node < 10 dropped, and newer ECMAScript syntax/features added
+deprecate vue-photo-preview@1.1.3 › vue-loader@13.7.3 › postcss-selector-parser@2.2.3 › flatten@^1.0.2 flatten is deprecated in favor of utility frameworks such as lodash.
+deprecate @vue/cli-service@4.5.15 › webpack-dev-server@3.11.3 › url@0.11.0 › querystring@0.2.0 The querystring API is considered Legacy. new code should use the URLSearchParams API instead.
+deprecate @vue/cli-plugin-unit-jest@4.5.15 › vue-jest@3.0.7 › extract-from-css@0.4.4 › css@2.2.4 › source-map-resolve@0.5.3 › resolve-url@^0.2.1 https://github.com/lydell/resolve-url#deprecated
+deprecate vue-photo-preview@1.1.3 › css-loader@0.28.11 › cssnano@3.10.0 › postcss-svgo@2.1.6 › svgo@^0.7.0 This SVGO version is no longer supported. Upgrade to v2.x.x.
+deprecate @vue/cli-service@4.5.15 › @intervolga/optimize-cssnano-plugin@1.0.6 › cssnano-preset-default@4.0.8 › postcss-svgo@4.0.3 › svgo@^1.0.0 This SVGO version is no longer supported. Upgrade to v2.x.x.
+deprecate @vue/cli-plugin-unit-jest@4.5.15 › jest-environment-jsdom-fifteen@1.0.2 › jsdom@15.2.1 › request-promise-native@^1.0.7 request-promise-native has been deprecated because it extends the now deprecated request package, see https://github.com/request/request/issues/3142
+deprecate @vue/cli-plugin-unit-jest@4.5.15 › jest@24.9.0 › jest-cli@24.9.0 › jest-config@24.9.0 › jest-environment-jsdom@24.9.0 › jsdom@11.12.0 › left-pad@^1.3.0 use String.prototype.padStart()
+anti semver vue-svg-icon-loader@2.1.1 › @types/loader-utils@1.1.3 › @types/webpack@5.28.0 › webpack@5.65.0 › terser-webpack-plugin@5.2.5 › jest-worker@27.4.4 › @types/node@* delcares @types/node@*(resolved as 16.11.12) but using ancestor(vue-svg-icon-loader)'s dependency @types/node@8.9(resolved as 8.9.5)
+deprecate vue-photo-preview@1.1.3 › babel-core@6.26.3 › babel-register@6.26.0 › core-js@^2.5.0 core-js@<3.3 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims, feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Please, upgrade your dependencies to the actual version of core-js.
+Recently updated (since 2021-12-06): 19 packages (detail see file /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/.recently_updates.txt)
+✔ All packages installed (1956 packages installed from npm registry, used 27s(network 21s), speed 350.93KB/s, json 1546(5.41MB), tarball 1.69MB)
+npm installed
+/Users/ericli/Documents/xft-node-work/ideploy
+/Users/ericli/Documents/xft-node-work/ideploy/temp/likai/24
+创建node_modules软连接  ln -s  ${modulesPath}/node_modules node_modules ---
+/Users/ericli/Documents/xft-node-work/ideploy/temp/likai/24
+开始构建
+
+> 91xft-zoomlion-project@3.0.2 build /Users/ericli/Documents/xft-node-work/ideploy/temp/likai/24
+> vue-cli-service build
+
+
+-  Building for production...
+ ERROR  Failed to compile with 54 errors11:12:01 AM
+
+ error  in /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_@ant-design-vue_pro-layout@1.0.11@@ant-design-vue/pro-layout/es/BasicLayout.less
+
+Error: No PostCSS Config found in: /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_@ant-design-vue_pro-layout@1.0.11@@ant-design-vue/pro-layout/es
+
+
+ @ /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_@ant-design-vue_pro-layout@1.0.11@@ant-design-vue/pro-layout/es/BasicLayout.js 7:0-28
+ @ /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_@ant-design-vue_pro-layout@1.0.11@@ant-design-vue/pro-layout/es/index.js
+ @ ./src/main.js
+ @ multi ./src/main.js
+
+ error  in /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_@ant-design-vue_pro-layout@1.0.11@@ant-design-vue/pro-layout/es/components/GlobalFooter/index.less
+
+Error: No PostCSS Config found in: /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_@ant-design-vue_pro-layout@1.0.11@@ant-design-vue/pro-layout/es/components/GlobalFooter
+
+
+ @ /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_@ant-design-vue_pro-layout@1.0.11@@ant-design-vue/pro-layout/es/components/GlobalFooter/index.js 1:0-22
+ @ /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_@ant-design-vue_pro-layout@1.0.11@@ant-design-vue/pro-layout/es/index.js
+ @ ./src/main.js
+ @ multi ./src/main.js
+
+ error  in /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_@ant-design-vue_pro-layout@1.0.11@@ant-design-vue/pro-layout/es/components/GlobalHeader/index.less
+
+Error: No PostCSS Config found in: /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_@ant-design-vue_pro-layout@1.0.11@@ant-design-vue/pro-layout/es/components/GlobalHeader
+
+
+ @ /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_@ant-design-vue_pro-layout@1.0.11@@ant-design-vue/pro-layout/es/components/GlobalHeader/index.js 1:0-22
+ @ /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_@ant-design-vue_pro-layout@1.0.11@@ant-design-vue/pro-layout/es/Header.js
+ @ /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_@ant-design-vue_pro-layout@1.0.11@@ant-design-vue/pro-layout/es/BasicLayout.js
+ @ /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_@ant-design-vue_pro-layout@1.0.11@@ant-design-vue/pro-layout/es/index.js
+ @ ./src/main.js
+ @ multi ./src/main.js
+
+ error  in /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_@ant-design-vue_pro-layout@1.0.11@@ant-design-vue/pro-layout/es/components/GridContent/index.less
+
+Error: No PostCSS Config found in: /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_@ant-design-vue_pro-layout@1.0.11@@ant-design-vue/pro-layout/es/components/GridContent
+
+
+ @ /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_@ant-design-vue_pro-layout@1.0.11@@ant-design-vue/pro-layout/es/components/GridContent/index.js 3:0-22
+ @ /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_@ant-design-vue_pro-layout@1.0.11@@ant-design-vue/pro-layout/es/components/PageHeaderWrapper/index.js
+ @ /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_@ant-design-vue_pro-layout@1.0.11@@ant-design-vue/pro-layout/es/BasicLayout.js
+ @ /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_@ant-design-vue_pro-layout@1.0.11@@ant-design-vue/pro-layout/es/index.js
+ @ ./src/main.js
+ @ multi ./src/main.js
+
+ error  in /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_@ant-design-vue_pro-layout@1.0.11@@ant-design-vue/pro-layout/es/components/PageHeaderWrapper/index.less
+
+Error: No PostCSS Config found in: /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_@ant-design-vue_pro-layout@1.0.11@@ant-design-vue/pro-layout/es/components/PageHeaderWrapper
+
+
+ @ /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_@ant-design-vue_pro-layout@1.0.11@@ant-design-vue/pro-layout/es/components/PageHeaderWrapper/index.js 14:0-22
+ @ /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_@ant-design-vue_pro-layout@1.0.11@@ant-design-vue/pro-layout/es/BasicLayout.js
+ @ /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_@ant-design-vue_pro-layout@1.0.11@@ant-design-vue/pro-layout/es/index.js
+ @ ./src/main.js
+ @ multi ./src/main.js
+
+ error  in /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_@ant-design-vue_pro-layout@1.0.11@@ant-design-vue/pro-layout/es/components/SettingDrawer/ThemeColor.less
+
+Error: No PostCSS Config found in: /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_@ant-design-vue_pro-layout@1.0.11@@ant-design-vue/pro-layout/es/components/SettingDrawer
+
+
+ @ /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_@ant-design-vue_pro-layout@1.0.11@@ant-design-vue/pro-layout/es/components/SettingDrawer/ThemeColor.js 8:0-27
+ @ /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_@ant-design-vue_pro-layout@1.0.11@@ant-design-vue/pro-layout/es/components/SettingDrawer/index.js
+ @ /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_@ant-design-vue_pro-layout@1.0.11@@ant-design-vue/pro-layout/es/index.js
+ @ ./src/main.js
+ @ multi ./src/main.js
+
+ error  in /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_@ant-design-vue_pro-layout@1.0.11@@ant-design-vue/pro-layout/es/components/SiderMenu/index.less
+
+Error: No PostCSS Config found in: /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_@ant-design-vue_pro-layout@1.0.11@@ant-design-vue/pro-layout/es/components/SiderMenu
+
+
+ @ /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_@ant-design-vue_pro-layout@1.0.11@@ant-design-vue/pro-layout/es/components/SiderMenu/SiderMenu.js 1:0-22
+ @ /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_@ant-design-vue_pro-layout@1.0.11@@ant-design-vue/pro-layout/es/Header.js
+ @ /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_@ant-design-vue_pro-layout@1.0.11@@ant-design-vue/pro-layout/es/BasicLayout.js
+ @ /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_@ant-design-vue_pro-layout@1.0.11@@ant-design-vue/pro-layout/es/index.js
+ @ ./src/main.js
+ @ multi ./src/main.js
+
+ error  in /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/alert/style/index.less
+
+Error: No PostCSS Config found in: /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/alert/style
+
+
+ @ /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/alert/style/index.js 2:0-22
+ @ ./src/core/lazy_use.js
+ @ ./src/main.js
+ @ multi ./src/main.js
+
+ error  in /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/avatar/style/index.less
+
+Error: No PostCSS Config found in: /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/avatar/style
+
+
+ @ /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/avatar/style/index.js 2:0-22
+ @ ./src/core/lazy_use.js
+ @ ./src/main.js
+ @ multi ./src/main.js
+
+ error  in /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/badge/style/index.less
+
+Error: No PostCSS Config found in: /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/badge/style
+
+
+ @ /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/badge/style/index.js 2:0-22
+ @ ./src/core/lazy_use.js
+ @ ./src/main.js
+ @ multi ./src/main.js
+
+ error  in /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/breadcrumb/style/index.less
+
+Error: No PostCSS Config found in: /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/breadcrumb/style
+
+
+ @ /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/breadcrumb/style/index.js 2:0-22
+ @ ./src/core/lazy_use.js
+ @ ./src/main.js
+ @ multi ./src/main.js
+
+ error  in /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/button/style/index.less
+
+Error: No PostCSS Config found in: /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/button/style
+
+
+ @ /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/button/style/index.js 2:0-22
+ @ /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/input/style/index.js
+ @ ./src/core/lazy_use.js
+ @ ./src/main.js
+ @ multi ./src/main.js
+
+ error  in /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/card/style/index.less
+
+Error: No PostCSS Config found in: /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/card/style
+
+
+ @ /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/card/style/index.js 2:0-22
+ @ ./src/core/lazy_use.js
+ @ ./src/main.js
+ @ multi ./src/main.js
+
+ error  in /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/checkbox/style/index.less
+
+Error: No PostCSS Config found in: /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/checkbox/style
+
+
+ @ /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/checkbox/style/index.js 2:0-22
+ @ ./src/core/lazy_use.js
+ @ ./src/main.js
+ @ multi ./src/main.js
+
+ error  in /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/config-provider/style/index.less
+
+Error: No PostCSS Config found in: /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/config-provider/style
+
+
+ @ /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/config-provider/style/index.js 1:0-22
+ @ ./src/core/lazy_use.js
+ @ ./src/main.js
+ @ multi ./src/main.js
+
+ error  in /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/date-picker/style/index.less
+
+Error: No PostCSS Config found in: /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/date-picker/style
+
+
+ @ /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/date-picker/style/index.js 2:0-22
+ @ ./src/core/lazy_use.js
+ @ ./src/main.js
+ @ multi ./src/main.js
+
+ error  in /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/descriptions/style/index.less
+
+Error: No PostCSS Config found in: /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/descriptions/style
+
+
+ @ /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/descriptions/style/index.js 2:0-22
+ @ ./src/core/lazy_use.js
+ @ ./src/main.js
+ @ multi ./src/main.js
+
+ error  in /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/divider/style/index.less
+
+Error: No PostCSS Config found in: /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/divider/style
+
+
+ @ /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/divider/style/index.js 2:0-22
+ @ ./src/core/lazy_use.js
+ @ ./src/main.js
+ @ multi ./src/main.js
+
+ error  in /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/drawer/style/index.less
+
+Error: No PostCSS Config found in: /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/drawer/style
+
+
+ @ /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/drawer/style/index.js 3:0-22
+ @ ./src/core/lazy_use.js
+ @ ./src/main.js
+ @ multi ./src/main.js
+
+ error  in /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/dropdown/style/index.less
+
+Error: No PostCSS Config found in: /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/dropdown/style
+
+
+ @ /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/dropdown/style/index.js 2:0-22
+ @ ./src/core/lazy_use.js
+ @ ./src/main.js
+ @ multi ./src/main.js
+
+ error  in /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/empty/style/index.less
+
+Error: No PostCSS Config found in: /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/empty/style
+
+
+ @ /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/empty/style/index.js 2:0-22
+ @ /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/list/style/index.js
+ @ ./src/core/lazy_use.js
+ @ ./src/main.js
+ @ multi ./src/main.js
+
+ error  in /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/form-model/style/index.less
+
+Error: No PostCSS Config found in: /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/form-model/style
+
+
+ @ /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/form-model/style/index.js 2:0-22
+ @ ./src/core/lazy_use.js
+ @ ./src/main.js
+ @ multi ./src/main.js
+
+ error  in /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/form/style/index.less
+
+Error: No PostCSS Config found in: /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/form/style
+
+
+ @ /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/form/style/index.js 2:0-22
+ @ ./src/core/lazy_use.js
+ @ ./src/main.js
+ @ multi ./src/main.js
+
+ error  in /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/grid/style/index.less
+
+Error: No PostCSS Config found in: /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/grid/style
+
+
+ @ /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/grid/style/index.js 2:0-22
+ @ /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/list/style/index.js
+ @ ./src/core/lazy_use.js
+ @ ./src/main.js
+ @ multi ./src/main.js
+
+ error  in /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/icon/style/index.less
+
+Error: No PostCSS Config found in: /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/icon/style
+
+
+ @ /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/icon/style/index.js 2:0-22
+ @ /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_@ant-design-vue_pro-layout@1.0.11@@ant-design-vue/pro-layout/es/components/RouteMenu/BaseMenu.js
+ @ /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_@ant-design-vue_pro-layout@1.0.11@@ant-design-vue/pro-layout/es/components/RouteMenu/index.js
+ @ /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_@ant-design-vue_pro-layout@1.0.11@@ant-design-vue/pro-layout/es/index.js
+ @ ./src/main.js
+ @ multi ./src/main.js
+
+ error  in /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/input-number/style/index.less
+
+Error: No PostCSS Config found in: /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/input-number/style
+
+
+ @ /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/input-number/style/index.js 2:0-22
+ @ ./src/core/lazy_use.js
+ @ ./src/main.js
+ @ multi ./src/main.js
+
+ error  in /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/input/style/index.less
+
+Error: No PostCSS Config found in: /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/input/style
+
+
+ @ /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/input/style/index.js 2:0-22
+ @ ./src/core/lazy_use.js
+ @ ./src/main.js
+ @ multi ./src/main.js
+
+ error  in /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/layout/style/index.less
+
+Error: No PostCSS Config found in: /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/layout/style
+
+
+ @ /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/layout/style/index.js 2:0-22
+ @ ./src/core/lazy_use.js
+ @ ./src/main.js
+ @ multi ./src/main.js
+
+ error  in /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/list/style/index.less
+
+Error: No PostCSS Config found in: /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/list/style
+
+
+ @ /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/list/style/index.js 2:0-22
+ @ ./src/core/lazy_use.js
+ @ ./src/main.js
+ @ multi ./src/main.js
+
+ error  in /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/menu/style/index.less
+
+Error: No PostCSS Config found in: /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/menu/style
+
+
+ @ /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/menu/style/index.js 2:0-22
+ @ ./src/core/lazy_use.js
+ @ ./src/main.js
+ @ multi ./src/main.js
+
+ error  in /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/message/style/index.less
+
+Error: No PostCSS Config found in: /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/message/style
+
+
+ @ /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/message/style/index.js 2:0-22
+ @ ./src/core/lazy_use.js
+ @ ./src/main.js
+ @ multi ./src/main.js
+
+ error  in /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/modal/style/index.less
+
+Error: No PostCSS Config found in: /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/modal/style
+
+
+ @ /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/modal/style/index.js 2:0-22
+ @ ./src/core/lazy_use.js
+ @ ./src/main.js
+ @ multi ./src/main.js
+
+ error  in /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/notification/style/index.less
+
+Error: No PostCSS Config found in: /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/notification/style
+
+
+ @ /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/notification/style/index.js 2:0-22
+ @ ./src/core/lazy_use.js
+ @ ./src/main.js
+ @ multi ./src/main.js
+
+ error  in /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/page-header/style/index.less
+
+Error: No PostCSS Config found in: /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/page-header/style
+
+
+ @ /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/page-header/style/index.js 1:0-22
+ @ ./src/core/lazy_use.js
+ @ ./src/main.js
+ @ multi ./src/main.js
+
+ error  in /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/pagination/style/index.less
+
+Error: No PostCSS Config found in: /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/pagination/style
+
+
+ @ /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/pagination/style/index.js 2:0-22
+ @ /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/list/style/index.js
+ @ ./src/core/lazy_use.js
+ @ ./src/main.js
+ @ multi ./src/main.js
+
+ error  in /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/popover/style/index.less
+
+Error: No PostCSS Config found in: /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/popover/style
+
+
+ @ /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/popover/style/index.js 2:0-22
+ @ /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/popconfirm/style/index.js
+ @ ./src/core/lazy_use.js
+ @ ./src/main.js
+ @ multi ./src/main.js
+
+ error  in /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/progress/style/index.less
+
+Error: No PostCSS Config found in: /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/progress/style
+
+
+ @ /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/progress/style/index.js 2:0-22
+ @ ./src/core/lazy_use.js
+ @ ./src/main.js
+ @ multi ./src/main.js
+
+ error  in /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/radio/style/index.less
+
+Error: No PostCSS Config found in: /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/radio/style
+
+
+ @ /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/radio/style/index.js 2:0-22
+ @ ./src/core/lazy_use.js
+ @ ./src/main.js
+ @ multi ./src/main.js
+
+ error  in /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/result/style/index.less
+
+Error: No PostCSS Config found in: /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/result/style
+
+
+ @ /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/result/style/index.js 2:0-22
+ @ ./src/core/lazy_use.js
+ @ ./src/main.js
+ @ multi ./src/main.js
+
+ error  in /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/select/style/index.less
+
+Error: No PostCSS Config found in: /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/select/style
+
+
+ @ /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/select/style/index.js 2:0-22
+ @ /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/pagination/style/index.js
+ @ /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/list/style/index.js
+ @ ./src/core/lazy_use.js
+ @ ./src/main.js
+ @ multi ./src/main.js
+
+ error  in /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/skeleton/style/index.less
+
+Error: No PostCSS Config found in: /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/skeleton/style
+
+
+ @ /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/skeleton/style/index.js 2:0-22
+ @ ./src/core/lazy_use.js
+ @ ./src/main.js
+ @ multi ./src/main.js
+
+ error  in /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/space/style/index.less
+
+Error: No PostCSS Config found in: /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/space/style
+
+
+ @ /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/space/style/index.js 2:0-22
+ @ ./src/core/lazy_use.js
+ @ ./src/main.js
+ @ multi ./src/main.js
+
+ error  in /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/spin/style/index.less
+
+Error: No PostCSS Config found in: /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/spin/style
+
+
+ @ /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/spin/style/index.js 2:0-22
+ @ ./src/core/lazy_use.js
+ @ ./src/main.js
+ @ multi ./src/main.js
+
+ error  in /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/statistic/style/index.less
+
+Error: No PostCSS Config found in: /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/statistic/style
+
+
+ @ /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/statistic/style/index.js 2:0-22
+ @ ./src/core/lazy_use.js
+ @ ./src/main.js
+ @ multi ./src/main.js
+
+ error  in /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/steps/style/index.less
+
+Error: No PostCSS Config found in: /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/steps/style
+
+
+ @ /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/steps/style/index.js 2:0-22
+ @ ./src/core/lazy_use.js
+ @ ./src/main.js
+ @ multi ./src/main.js
+
+ error  in /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/style/index.less
+
+Error: No PostCSS Config found in: /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/style
+
+
+ @ /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/notification/style/index.js 1:0-32
+ @ ./src/core/lazy_use.js
+ @ ./src/main.js
+ @ multi ./src/main.js
+
+ error  in /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/switch/style/index.less
+
+Error: No PostCSS Config found in: /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/switch/style
+
+
+ @ /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/switch/style/index.js 2:0-22
+ @ ./src/core/lazy_use.js
+ @ ./src/main.js
+ @ multi ./src/main.js
+
+ error  in /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/table/style/index.less
+
+Error: No PostCSS Config found in: /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/table/style
+
+
+ @ /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/table/style/index.js 2:0-22
+ @ ./src/core/lazy_use.js
+ @ ./src/main.js
+ @ multi ./src/main.js
+
+ error  in /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/tabs/style/index.less
+
+Error: No PostCSS Config found in: /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/tabs/style
+
+
+ @ /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/tabs/style/index.js 2:0-22
+ @ /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_@ant-design-vue_pro-layout@1.0.11@@ant-design-vue/pro-layout/es/components/PageHeaderWrapper/index.js
+ @ /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_@ant-design-vue_pro-layout@1.0.11@@ant-design-vue/pro-layout/es/BasicLayout.js
+ @ /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_@ant-design-vue_pro-layout@1.0.11@@ant-design-vue/pro-layout/es/index.js
+ @ ./src/main.js
+ @ multi ./src/main.js
+
+ error  in /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/tag/style/index.less
+
+Error: No PostCSS Config found in: /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/tag/style
+
+
+ @ /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/tag/style/index.js 2:0-22
+ @ ./src/core/lazy_use.js
+ @ ./src/main.js
+ @ multi ./src/main.js
+
+ error  in /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/time-picker/style/index.less
+
+Error: No PostCSS Config found in: /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/time-picker/style
+
+
+ @ /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/time-picker/style/index.js 2:0-22
+ @ ./src/core/lazy_use.js
+ @ ./src/main.js
+ @ multi ./src/main.js
+
+ error  in /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/tooltip/style/index.less
+
+Error: No PostCSS Config found in: /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/tooltip/style
+
+
+ @ /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/tooltip/style/index.js 2:0-22
+ @ ./src/core/lazy_use.js
+ @ ./src/main.js
+ @ multi ./src/main.js
+
+ error  in /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/upload/style/index.less
+
+Error: No PostCSS Config found in: /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/upload/style
+
+
+ @ /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_ant-design-vue@1.7.8@ant-design-vue/es/upload/style/index.js 2:0-22
+ @ ./src/core/lazy_use.js
+ @ ./src/main.js
+ @ multi ./src/main.js
+
+ error  in /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_vue-photo-preview@1.1.3@vue-photo-preview/dist/skin.css
+
+Error: No PostCSS Config found in: /Users/ericli/Documents/xft-node-work/ideploy/temp/mods/24/node_modules/_vue-photo-preview@1.1.3@vue-photo-preview/dist
+
+
+ @ ./src/main.js 236:0-41
+ @ multi ./src/main.js
+
+ ERROR  Build failed with errors.
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! 91xft-zoomlion-project@3.0.2 build: `vue-cli-service build`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the 91xft-zoomlion-project@3.0.2 build script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/ericli/.npm/_logs/2021-12-13T03_12_01_409Z-debug.log
+test2 build end!!!
