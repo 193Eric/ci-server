@@ -1,6 +1,0 @@
-
-=================start to deploy:
-spawn rsync -raqpPL --delete ./temp/likai/23/dist likai@127.0.0.1:/Users/ericli/Documents/node-server/91xft-xiangyasan-admin/dist
-ssh: connect to host 127.0.0.1 port 22: Connection refused
-rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-rsync error: error in rsync protocol data stream (code 12) at /BuildRoot/Library/Caches/com.apple.xbs/Sources/rsync/rsync-52.200.1/rsync/io.c(453) [sender=2.6.9]
