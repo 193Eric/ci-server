@@ -14,7 +14,7 @@ if [ ! -d $modulesPath ]; then
 fi
 
 cp -f $projectPath/package.json $modulesPath
-
+cp -f $projectPath/postcss.config.js $modulesPath
 cd $modulesPath
 
 #更新依赖库
