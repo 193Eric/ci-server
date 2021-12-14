@@ -34,6 +34,9 @@ export default class extends think.service.base {
         let fileU = new fileUtil();
         let cvsDir = fileU.getCvsDir(username, pro.id);
         let isBranch = pro.branch_deploy;
+        if(!pro.lastTag){
+            return []
+        }
         let lastTagUrl = this.cvsClient.getLastTagUrl(pro.codeUrl, pro.id, pro.lastTag, isBranch);
         let reArray = await this.cvsClient.getChangeLog(pro.codeUrl, lastTagUrl, pro.lastTag, cvsDir);
         return reArray;
@@ -42,6 +45,9 @@ export default class extends think.service.base {
       let fileU = new fileUtil();
       let cvsDir = fileU.getCvsDir(username, pro.id);
       let isBranch = pro.branch_deploy;
+      if(!pro.lastTag){
+        return []
+    }
       let lastTagUrl = this.cvsClient.getLastTagUrl(pro.codeUrl, pro.id, pro.lastTag, isBranch);
       let content = await this.cvsClient.getFileDiff(pro.codeUrl, lastTagUrl,commit,lastCommit,filename,cvsDir);
       let conArr = content.split('\n');
@@ -148,6 +154,9 @@ export default class extends think.service.base {
                     }
                     //过滤node_modules文件夹
                     fs.writeFileSync(nowLogFile, stdout, options);
+                    if(!pro.lastTag){
+                        resolve({add:[],change:[],same:[]})
+                    }   
                     let diff = new diffDir();
                     let result = diff.diff(cvsDir, undefined, ['node_modules', '.git']);
                     resolve(result);
