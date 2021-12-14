@@ -144,6 +144,10 @@ export default class extends think.service.base {
                     flag: 'a'
                 };
                 fs.writeFileSync(nowLogFile, '=================start to checkout code:\n', options);
+                if(!pro.lastTag){
+                    resolve({add:[],change:[],same:[]})
+                    return 
+                }   
                 self.export(pro.codeUrl, cvsDir, isBranch, function(err, stdout) {
                     //  console.log('exprot success');
                     if (err) {
@@ -154,9 +158,6 @@ export default class extends think.service.base {
                     }
                     //过滤node_modules文件夹
                     fs.writeFileSync(nowLogFile, stdout, options);
-                    if(!pro.lastTag){
-                        resolve({add:[],change:[],same:[]})
-                    }   
                     let diff = new diffDir();
                     let result = diff.diff(cvsDir, undefined, ['node_modules', '.git']);
                     resolve(result);
