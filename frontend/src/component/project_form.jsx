@@ -175,19 +175,17 @@ class ProjectForm extends React.Component {
             id: id
           },
           success: function(res) {
-            if (res.errno == 0) {
-              // _self.hideModal();
               if (res.errno == 0) {
                 // alert(successMsg);
                 ReactDOM.render(
                   <Alert message="操作成功" type="success" showIcon/>, document.getElementById('result'));
-                  window.location.href = '#'
+                  window.location.href = '#/'
               } else {
                 // alert(res.errmsg);
                 ReactDOM.render(
                   <Alert message="操作失败" description={res.errmsg} type="error" showIcon/>, document.getElementById('result'));
               }
-            }
+            
           }
         })
       }
@@ -391,7 +389,7 @@ class ProjectForm extends React.Component {
       <div>
         <div className="form-content">
           <div id="result"></div>
-          <Form horizontal form={this.props.form} onSubmit={this.handlePost.bind(this)}>
+          <Form horizontal form={this.props.form}>
 
             <FormItem hasFeedback help={isFieldValidating('name')
               ? ''
@@ -457,7 +455,7 @@ class ProjectForm extends React.Component {
 
             <FormItem>
               <Row type="flex" justify="end" className="section-gap">
-                <Button type="primary" htmlType="submit">确定</Button>
+                <Button type="primary" onClick={this.handlePost.bind(this)} htmlType="submit">确定</Button>
               </Row>
             </FormItem>
           </Form>

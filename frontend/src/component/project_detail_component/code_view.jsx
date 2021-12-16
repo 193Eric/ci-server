@@ -13,6 +13,7 @@ import {
   Tabs,
   Badge,
   Select,
+  message,
   Icon,
   Modal,
   Radio,
@@ -206,6 +207,12 @@ const CodeView = React.createClass({
               self.props.handleBuild(true);
           }
         }
+      },
+      error:function(res){
+        message.error('代码检出失败，请检查是否为正确分支！');
+        self.setState({
+          checkoutLoading: false,
+        });
       }
     })
   },

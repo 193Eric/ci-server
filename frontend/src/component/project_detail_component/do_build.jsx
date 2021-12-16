@@ -246,7 +246,12 @@ const DoBuild = React.createClass({
           if (res.errno == 0) {
             let buildDist = res.data.sdir.split(';');
             self.setState({buildResult: buildDist,buildDir: res.data.buildDir});
+            self.setState({buildLoading: false});
           }
+        },
+        error:function(res){
+          message.error('构建失败！，请通过日志查看具体原因');
+          self.setState({buildLoading: false});
         }
       });
     },0)
