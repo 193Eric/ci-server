@@ -546,7 +546,6 @@ export default class extends Base {
         */
     async tagAction(pro, isInc, incExc, machineArr, deployDesc) {
         //let buildInfo = await proModel.getProjectBuildInfo(pro.id,machineId);
-
         //获取新版本号,svn打tag
         let proModel = new ProModel();
         let verU = new verUtil();
@@ -582,7 +581,7 @@ export default class extends Base {
             his.deploy_log = deployLogFile.replace(dir, '');
             let hisModel = new HisModel();
             let newHis = await hisModel.newHistory(his);
-            if (deployInfo.type == '1') {
+            if (pro.type == '1') {
                 hasProductDeploy = true;
             }
 
