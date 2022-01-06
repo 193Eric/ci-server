@@ -17,7 +17,7 @@ export default class {
          获取上一个tag dir
         */
     getLastTagDir(username, id) {
-            return './temp/' + username + '/' + id + '_old';
+            return __path+'/temp/' + username + '/' + id + '_old';
         }
         /*
         获取增量更新是的构建目录

@@ -47,7 +47,7 @@ export default class extends think.service.base {
       let isBranch = pro.branch_deploy;
       if(!pro.lastTag){
         return []
-    }
+      }
       let lastTagUrl = this.cvsClient.getLastTagUrl(pro.codeUrl, pro.id, pro.lastTag, isBranch);
       let content = await this.cvsClient.getFileDiff(pro.codeUrl, lastTagUrl,commit,lastCommit,filename,cvsDir);
       let conArr = content.split('\n');
@@ -129,6 +129,7 @@ export default class extends think.service.base {
                         //过滤node_modules文件夹
                         let diff = new diffDir();
                         let result = diff.diff(cvsDir, lastTagDir, ['node_modules', '.git']);
+                        console.log(cvsDir,lastTagDir)
                         //result.changeInfo = changeLog;
 
                         resolve(result);
