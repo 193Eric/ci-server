@@ -117,7 +117,7 @@ class changePassForm extends React.Component {
       }
     };
     return (
-      <div>
+      <div className='pass-container'>
         <Form horizontal form={this.props.form}>
           <FormItem {...formItemLayout} label="密码：" hasFeedback help={isFieldValidating('name')
             ? '校验中...'

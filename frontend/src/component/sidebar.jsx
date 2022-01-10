@@ -15,16 +15,16 @@ const Sidebar = React.createClass({
           <Link to="/"><Icon type="folder"/>工程列表</Link>
         </Menu.Item>
         <Menu.Item key="machine">
-          <Link to="/machine_list"><Icon type="folder"/>机器管理</Link>
+          <Link to="/machine_list"><Icon type="hdd"/>机器管理</Link>
         </Menu.Item>
         <Menu.Item key="change">
           <Link to="/changePass"><Icon type="edit"/>修改密码</Link>
         </Menu.Item>
         <Menu.Item key="stat">
-          <Link to="/stat"><Icon type="folder"/>统计</Link>
+          <Link to="/stat"><Icon type="bar-chart"/>统计</Link>
         </Menu.Item>
         <Menu.Item key="batch_deploy">
-          <Link to="/batch_deploy"><Icon type="folder"/>批量部署</Link>
+          <Link to="/batch_deploy"><Icon type="rocket"/>批量部署</Link>
         </Menu.Item>
       </Menu>
     );

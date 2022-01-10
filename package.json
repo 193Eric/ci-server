@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "node-etcd": "^5.0.2",
-    "antd": "^1.6.3",
+    "antd": "^2.13.11",
     "babel-runtime": "6.x.x",
     "child-process-es6-promise": "^1.0.0",
     "child-process-promise": "^2.0.2",

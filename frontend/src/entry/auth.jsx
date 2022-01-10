@@ -1,4 +1,5 @@
 import '../common/lib';
+import '../style/app.less';
 import Header from '../component/header';
 import LoginForm from '../component/login_form';
 import RegisterForm from '../component/register_form';

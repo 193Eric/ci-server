@@ -32,7 +32,7 @@ class Stat extends React.Component {
       title: {
         text: ''
       },
-      color: ['#3398DB'],
+      color: ['#09488a'],
       tooltip: {
         trigger: 'axis',
         axisPointer: { // 坐标轴指示器，坐标轴触发有效
@@ -64,7 +64,7 @@ class Stat extends React.Component {
         {
           name: '部署次数',
           type: 'bar',
-          barWidth: '60%',
+          barWidth: '50%',
           data: []
         }
       ]
