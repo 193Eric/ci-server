@@ -145,13 +145,13 @@ export default class extends think.service.base {
                 };
                 fs.writeFileSync(nowLogFile, '=================start to checkout code:\n', options);
                 self.export(pro.codeUrl, cvsDir, isBranch, function(err, stdout) {
-                    //  console.log('exprot success');
-                    if (err) {
+                    if (err) {       
                         let errmsg = err.toString() + err.stack;
                         fs.writeFileSync(nowLogFile, errmsg, options);
                         reject(err);
                         return;
                     }
+                    
                     //过滤node_modules文件夹
                     fs.writeFileSync(nowLogFile, stdout, options);
                     if(!pro.lastTag){
