@@ -129,7 +129,6 @@ export default class extends think.service.base {
                         //过滤node_modules文件夹
                         let diff = new diffDir();
                         let result = diff.diff(cvsDir, lastTagDir, ['node_modules', '.git']);
-                        console.log(cvsDir,lastTagDir)
                         //result.changeInfo = changeLog;
 
                         resolve(result);
