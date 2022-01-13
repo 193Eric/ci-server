@@ -354,7 +354,7 @@ export default class extends Base {
         let isNpmInstall = this.param('isNpmInstall');
         let deployFiles = JSON.parse(this.param('deployFiles'));
         let isQuickDeploy = this.param('quick_deploy');
-        let result = await this.doBuild(proId, machineId, buildTask, buildType, incExc, isNpmInstall, deployFiles, isQuickDeploy, true);
+        let result = await this.doBuild(proId, machineId, buildTask, buildType, incExc, isNpmInstall, deployFiles, isQuickDeploy, false);
         //result.bInfo = bInfo;
         this.success(result);
     }
