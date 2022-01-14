@@ -152,8 +152,8 @@ const CodeView = React.createClass({
         let source = self.state.buildLog;
         let nowTime = (new Date()).getTime();
         let disTime = (nowTime - startTime);
-        //每50个日志输出更新一次内容或者长度大于5000
-        if (data.indexOf('end!!!') >= 0 || disTime/1000 >= 5 || logCount%50 == 0 || tempLog.length>5000) {
+        //每5s一次或者长度大于2000
+        if (data.indexOf('end!!!') >= 0 || disTime/1000 >= 5 || tempLog.length>2000) {
           self.props.doBuildLog(tempLog);
           tempLog = '' ;
           startTime = nowTime;
