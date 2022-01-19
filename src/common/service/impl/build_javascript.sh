@@ -14,6 +14,7 @@ if [ ! -d $modulesPath ]; then
 fi
 
 cp -f $projectPath/package.json $modulesPath
+cp -f $projectPath/package-lock.json $modulesPath
 cp -f $projectPath/postcss.config.js $modulesPath
 cd $modulesPath
 
