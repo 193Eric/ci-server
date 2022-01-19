@@ -3,17 +3,18 @@
  * db config
  * @type {Object}
  */
+
 export default {
     type: 'mysql',
     log_sql: true,
     log_connect: true,
     adapter: {
         mysql: {
-            host: '172.18.254.203',
+            host: '127.0.0.1',
             port: '',
-            database: 'front_db',
-            user: 'admin',
-            password: 'bzwR680B8VmCs^92#5',
+            database: 'ci',
+            user: 'root',
+            password: '111111',
             prefix: '',
             encoding: 'utf8'
         },
@@ -22,23 +23,3 @@ export default {
         }
     }
 };
-
-// export default {
-//     type: 'mysql',
-//     log_sql: true,
-//     log_connect: true,
-//     adapter: {
-//         mysql: {
-//             host: '127.0.0.1',
-//             port: '',
-//             database: 'ci',
-//             user: 'root',
-//             password: '111111',
-//             prefix: '',
-//             encoding: 'utf8'
-//         },
-//         mongo: {
-
-//         }
-//     }
-// };

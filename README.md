@@ -8,9 +8,6 @@
 
 * [4.部署第一个项目](#firstpro)
 
-* [5.多语言支持](#morelang)
-
-* [6.编写插件支持高级功能](#advanced)
 
 
 
@@ -29,7 +26,7 @@
 <span id="tech"></span>
 ## 技术栈
 
- 1.  开发语言： [nodejs](http://nodejs.org/ "nodejs") 
+ 1. 开发语言： [nodejs](http://nodejs.org/ "nodejs") 
  
  2. 数据库: [mysql](https://www.mysql.com/) 
 
